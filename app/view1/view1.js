@@ -11,13 +11,13 @@ angular.module('myApp.view1', ['ngRoute'])
 
 .controller('View1Ctrl', ['$uibModal','$scope',function($uibModal,$scope) {
     $scope.openModal = (size, parentSelectior) => {
-        let modalInstance = $uibModal.open({
+        console.log('Modal Open');
+        var modalInstance = $uibModal.open({
             ariaLabelledBy: 'modal-title',
             ariaDescribedBy: 'modal-body',
             templateUrl: 'myModalContent.html',
-            controller: 'ModalInstanceController',
-            controllerAs: '$ctrl',
-            size: size,
+            controller: 'View1Ctrl'
+            // size: size,
             // appendTo: parentElem,
             // resolve: {
             //     items: function () {
@@ -29,7 +29,4 @@ angular.module('myApp.view1', ['ngRoute'])
 }])
 .controller('ModalController', ['$uibModal','$scope',function($uibModal,$scope) {
 
-}])
-.controller('ModalInstanceController', ['$uibModalInstance','itens',function ($uibModalInstance,itens) {
-
-}])
+}]);
