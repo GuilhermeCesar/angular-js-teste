@@ -20,6 +20,8 @@
     "browser": false,
     "element": false,
     "by": false,
-    "devel": true
+    "devel": true,
+
+
   }
 }

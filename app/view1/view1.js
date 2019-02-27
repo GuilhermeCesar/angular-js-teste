@@ -12,7 +12,7 @@ angular.module('myApp.view1', ['ngRoute'])
 .controller('View1Ctrl', ['$uibModal','$scope',function($uibModal,$scope) {
     $scope.openModal = (size, parentSelectior) => {
         console.log('Modal Open');
-        var modalInstance = $uibModal.open({
+        let modalInstance = $uibModal.open({
             ariaLabelledBy: 'modal-title',
             ariaDescribedBy: 'modal-body',
             templateUrl: 'myModalContent.html',
