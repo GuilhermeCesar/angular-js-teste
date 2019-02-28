@@ -10,6 +10,7 @@
     "angular-animate": "^1.7.7",
     "angular-loader": "^1.7.5",
     "angular-route": "^1.7.5",
+    "angular-touch": "^1.7.7",
     "angular-ui-bootstrap": "^2.5.6",
     "html5-boilerplate": "0.0.1"
   },

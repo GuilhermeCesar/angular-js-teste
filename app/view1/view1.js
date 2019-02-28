@@ -15,7 +15,7 @@ angular.module('myApp.view1', ['ngRoute'])
         let modalInstance = $uibModal.open({
             ariaLabelledBy: 'modal-title',
             ariaDescribedBy: 'modal-body',
-            templateUrl: 'myModalContent.html',
+            templateUrl: 'test2.html',
             controller: 'View1Ctrl'
             // size: size,
             // appendTo: parentElem,
